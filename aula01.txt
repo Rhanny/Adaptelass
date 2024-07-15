@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Sempre tive dificuldade em entender qualquer coisa sobre commit ou até mesmo relacionada à git e github, mas depois da aula 01 do adaptelas consegui entender bem e realizar meu primeiro commit!! Obrigada aos professores por essa aula incrível e pela ótima didática!!
-=======
-Sempre tive dificuldade em entender qualquer coisa sobre commit ou até mesmo relacionada à git e github, mas depois da aula 01 do adaptelas consegui entender bem e realizar meu primeiro commit!! Obrigada aos professores por essa aula incrível e pela ótima didática!!
->>>>>>> dd73b291f4933b02e5848731005321e1f5d87f25
