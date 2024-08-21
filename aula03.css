@@ -1,62 +1,102 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Rhannya" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="Estudante" />
-    <link rel="stylesheet" href="teste2.css">
+body {
+    background-color: #CAADE6;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Adaptelas by Adapti</title>
-  </head>
-  <body>
-    <header>
-        <div class="box">
-      <nav>
-        <img src="imagens/logo_nav.png" alt="Logo da Adapti" id="camimenor" />
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-    </div>
-    </header>
-    <main>
-        <div>
-            <section>
-                <h1>Adaptelas</h1>
-                <p id="texto">
-          Adaptelas é um curso online de desenvolvimento web desenvolvido e voltado exclusivamente para
-          mulheres que tenham interesse ba área de tecnologia e programação. Esse curso é desenvolvido pela empresa júnior de computação - Adapti, e oferece capacitação na área de
-          programação front-end englobando html e css principalmente, proporcionando uma
-          formação completa e acessível, que vai do nível básico ao avançado.
-                </p>
-        <img src="imagens/body.png" alt="Imagem mulher em pé" id="mulher"/>
-            </section>
-        </div>
-        <div id="caixa">
-            <section>
-                <h2 id="curso">Sobre a Adapti</h2>
-                <img src="imagens/logo_footer.png" alt="Logo da Adapti" id="cami"/>
-                <p id="curso1">
-          A Adapti é uma empresa júnior com foco em desenvolvimento de Sites e
-          Sistemas web. Buscamos sempre ajudar pequenas e médias empresas a
-          crescer e otimizar os seus processos, por meio de soluções digitais.
-                </p>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div id="pe">
-          <p id="textinho"><strong>Desenvolvido em 2024</strong> Adapti - Soluções Web.</p>
-        </div>
-    </footer>
-  </body>
-</html>
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+    list-style-type: none;
+    color: #f2f2f2;
+}
+
+ul {
+    margin-left: 3%;
+
+    
+}
+.box {
+    margin: 0 auto;
+    background-color: #610588;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    height: 10vh;
+
+
+}
+
+#curso {
+    color: #f2f2f2;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 47%;
+    padding-top: 10%;
+
+}
+
+#curso1 {
+    color: #f2f2f2;
+    text-align: justify;
+    width: 500px;
+    margin-left: 60%;
+    margin-top: -13%;
+    
+
+}
+
+section>h1 {
+    color: #610588;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#texto {
+    color:#610588;
+    margin-left: 3%;
+}
+
+#mulher {
+    margin-left: 3%;
+}
+
+#cami {
+    width: 20%;
+    margin-left: 5%;
+}
+
+#camimenor {
+    margin-left: 3%;
+
+
+}
+
+#caixa {
+    background-color: #610588;
+    height: 538px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#pe {
+    background-color: #bd97e0;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    gap: 5px;
+    padding: 2;
+}
+
+strong {
+    color: #f2f2f2;
+}
+
+#textinho {
+
+    display: flex;
+    justify-content: center;
+}
