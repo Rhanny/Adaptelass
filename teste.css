@@ -1,0 +1,75 @@
+body {
+    background-color: #CAADE6;
+    padding: 10px;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav {
+    background-color: #610588;
+    position: absolute;
+
+
+}
+
+.box {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+#curso {
+    color: #f2f2f2;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 66%;
+    padding-top: 4%;
+
+}
+
+#curso1 {
+    color: #f2f2f2;
+    text-align: justify;
+    width: 500px;
+    margin-left: 70%;
+    margin-top: -18px;
+    
+
+}
+
+section>h1 {
+    color: brown;
+    text-align: center;
+}
+
+#caixa {
+    background-color: #610588;
+    height: 338px;
+    width: 100vw;
+    margin: -18px;
+}
+
+#pe {
+    background-color: #bd97e0;
+    height: 338px;
+    width: 100vw;
+    margin: -18px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #610588;
+    gap: 5px;
+}
+
+strong {
+    color: #f2f2f2;
+}
+

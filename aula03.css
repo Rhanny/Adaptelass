@@ -1,0 +1,102 @@
+body {
+    background-color: #CAADE6;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+    list-style-type: none;
+    color: #f2f2f2;
+}
+
+ul {
+    margin-left: 3%;
+
+    
+}
+.box {
+    margin: 0 auto;
+    background-color: #610588;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    height: 10vh;
+
+
+}
+
+#curso {
+    color: #f2f2f2;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 47%;
+    padding-top: 10%;
+
+}
+
+#curso1 {
+    color: #f2f2f2;
+    text-align: justify;
+    width: 500px;
+    margin-left: 60%;
+    margin-top: -13%;
+    
+
+}
+
+section>h1 {
+    color: #610588;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#texto {
+    color:#610588;
+    margin-left: 3%;
+}
+
+#mulher {
+    margin-left: 3%;
+}
+
+#cami {
+    width: 20%;
+    margin-left: 5%;
+}
+
+#camimenor {
+    margin-left: 3%;
+
+
+}
+
+#caixa {
+    background-color: #610588;
+    height: 538px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#pe {
+    background-color: #bd97e0;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    gap: 5px;
+    padding: 2;
+}
+
+strong {
+    color: #f2f2f2;
+}
+
+#textinho {
+
+    display: flex;
+    justify-content: center;
+}

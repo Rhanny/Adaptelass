@@ -1,0 +1,126 @@
+body {
+    background-color: #CAADE6;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+    list-style-type: none;
+    color: #f2f2f2;
+}
+
+section > h1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+    font-size: 35px;
+    text-shadow: gray 0.1em 0.1em 0.2em    
+}
+
+ul {
+    margin-left: 3%;
+
+    
+}
+.box {
+    margin: 0 auto;
+    background-color: #610588;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    height: 10vh;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 35vw;
+    top: -44px;
+    position: relative;
+    /* ver como diminuir o tamanho do space between */
+}
+
+#curso {
+    color: #f2f2f2;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 47%;
+    padding-top: 15vh;
+
+}
+
+#curso1 {
+    color: #f2f2f2;
+    text-align: justify;
+    width: 500px;
+    margin-left: 56vw;
+    margin-top: -11%;
+    
+
+}
+
+section>h1 {
+    color: #610588;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 21vw;
+}
+
+#texto {
+    color:#610588;
+    margin-left: 12vw;
+    text-align: justify;
+    width: 30vw;
+}
+
+#mulher {
+    margin-top: -18%;
+    margin-left: 54vw;
+}
+
+#cami {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: -6vh;
+}
+
+#camimenor {
+    margin-top: 1vh;
+    margin-left: 7vw;
+
+}
+
+#caixa {
+    background-color: #610588;
+    height: 60vh;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#pe {
+    background-color: #bd97e0;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    gap: 5px;
+    padding: 2;
+}
+
+strong {
+    color: #610588;
+}
+
+#textinho {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
